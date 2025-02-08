@@ -1,0 +1,26 @@
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--background-color);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.cart-item-info {
+    display: flex;
+}
+
+.cart-item-price {
+    margin-left: auto;
+}
+
+.cart-item button {
+    background-color: rgb(174, 17, 17);
+    border: none;
+    border-radius: 5px;
+}
+
+.cart-item button:hover {
+    filter: brightness(1.1);
+}
