@@ -8,23 +8,11 @@
   --secondary-color: #2f2e2e;
   --background-color: #242424;
 
-  color-scheme: light dark;
   color: var(--color);
   background-color: var(--background-color);
-
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --color: #213547;
-    --background-color: #ffffff;
-    --secondary-color: #294359;
-    color: var(--color);
-    background-color: var(--background-color);
-  }
 }
